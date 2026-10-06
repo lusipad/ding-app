@@ -1,0 +1,174 @@
+[
+  {
+    "file": "clinic_door_screen_1.jpg",
+    "dimensions": [
+      800,
+      800
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 158.88,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "clinic_door_screen_2.jpg",
+    "dimensions": [
+      800,
+      800
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 154.22,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "clinic_door_screen_3.jpg",
+    "dimensions": [
+      750,
+      1059
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 165.14,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "hospital_queue_screen_1.jpg",
+    "dimensions": [
+      600,
+      629
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 164.86,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "hospital_queue_screen_2.jpg",
+    "dimensions": [
+      1920,
+      1440
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 136.21,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "infusion_bottle_real_1.jpg",
+    "dimensions": [
+      860,
+      574
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 178.05,
+      "isAcceptable": true
+    },
+    "infusion": {
+      "detected": true,
+      "levelPercent": 63.7,
+      "confidence": 0.5
+    }
+  },
+  {
+    "file": "infusion_bottle_real_2.jpg",
+    "dimensions": [
+      800,
+      533
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 166.18,
+      "isAcceptable": true
+    },
+    "infusion": {
+      "detected": false,
+      "levelPercent": null,
+      "confidence": 0
+    }
+  },
+  {
+    "file": "infusion_bottle_real_3.jpg",
+    "dimensions": [
+      640,
+      426
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 205.98,
+      "isAcceptable": true
+    },
+    "infusion": {
+      "detected": false,
+      "levelPercent": null,
+      "confidence": 0
+    }
+  },
+  {
+    "file": "infusion_bottle_real_4.jpg",
+    "dimensions": [
+      640,
+      800
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 222.97,
+      "isAcceptable": true
+    },
+    "infusion": {
+      "detected": true,
+      "levelPercent": 95.0,
+      "confidence": 0.95
+    }
+  },
+  {
+    "file": "triage_hall_screen_1.jpg",
+    "dimensions": [
+      1920,
+      1440
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 136.21,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "triage_hall_screen_2.jpg",
+    "dimensions": [
+      1856,
+      928
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 168.42,
+      "isAcceptable": true
+    },
+    "infusion": null
+  },
+  {
+    "file": "triage_hall_screen_3.jpg",
+    "dimensions": [
+      1920,
+      1440
+    ],
+    "quality": {
+      "blurScore": 100.0,
+      "brightness": 127.42,
+      "isAcceptable": true
+    },
+    "infusion": null
+  }
+]

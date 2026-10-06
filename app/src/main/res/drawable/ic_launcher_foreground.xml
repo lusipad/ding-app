@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 帮我看着 · 前景层：智能取景对焦框 (Focus Viewfinder) + 灵动安心铃铛 (Ding Bell) -->
+<!-- 寓意：“智能帮你看着大屏，叫号了叮一下提醒”，亲切友好，杜绝写实眼球的窥视感与惊悚感 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. 四角智能对焦框 (象征 AI 视觉识别 / 看着大屏) -->
+    <!-- 左上角 -->
+    <path
+        android:strokeColor="#99FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 32,42 L 32,36 A 4,4 0 0,1 36,32 L 42,32" />
+    <!-- 右上角 -->
+    <path
+        android:strokeColor="#99FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 66,32 L 72,32 A 4,4 0 0,1 76,36 L 76,42" />
+    <!-- 左下角 -->
+    <path
+        android:strokeColor="#99FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 32,66 L 32,72 A 4,4 0 0,0 36,76 L 42,76" />
+    <!-- 右下角 -->
+    <path
+        android:strokeColor="#99FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 66,76 L 72,76 A 4,4 0 0,0 76,72 L 76,66" />
+
+    <!-- 2. 居中守护铃铛 (象征“叮！到号即时提醒”，温暖圆润) -->
+    <!-- 铃铛顶环 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,34.5 A 3.5,3.5 0 0,1 57.5,38 L 50.5,38 A 3.5,3.5 0 0,1 54,34.5 Z" />
+
+    <!-- 铃铛主体 (带微投影) -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M 54,39 C 48,39 44,43 44,51 L 43,58 C 42,62 39,63.5 39,65.5 L 69,65.5 C 69,63.5 66,62 65,58 L 64,51 C 64,43 60,39 54,39 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,38 C 48,38 44,42 44,50 L 43,57 C 42,61 39,62.5 39,64.5 L 69,64.5 C 69,62.5 66,61 65,57 L 64,50 C 64,42 60,38 54,38 Z" />
+
+    <!-- 铃舌 (圆润小锤) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,64.5 C 51.5,64.5 50.5,67 51.5,69 C 52.3,70.5 55.7,70.5 56.5,69 C 57.5,67 56.5,64.5 54,64.5 Z" />
+
+    <!-- 3. 铃声唤醒动态弧波 (叮！音浪弧线) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 72,46 C 74.5,49 74.5,55 72,58" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 36,46 C 33.5,49 33.5,55 36,58" />
+
+    <!-- 4. 温暖的灵动提醒微光星点 (琥珀暖金) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 69,33 A 4.5,4.5 0 1,1 60,33 A 4.5,4.5 0 1,1 69,33 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 66.5,31.5 A 1.5,1.5 0 1,1 63.5,31.5 A 1.5,1.5 0 1,1 66.5,31.5 Z" />
+</vector>

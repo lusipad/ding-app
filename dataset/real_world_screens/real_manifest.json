@@ -1,0 +1,98 @@
+[
+  {
+    "filename": "hospital_queue_screen_1.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\hospital_queue_screen_1.jpg",
+    "url": "http://14860640.s21i.faiusr.com/4/ABUIABAEGAAgvvrn9QUosYTWOjDYBDj1BA.png",
+    "query": "医院 门诊 叫号屏 现场",
+    "prefix": "hospital_queue_screen",
+    "size": 392422
+  },
+  {
+    "filename": "hospital_queue_screen_2.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\hospital_queue_screen_2.jpg",
+    "url": "https://www.cdroho.com/public/ueditor/php/upload/96751686106396.jpg",
+    "query": "医院 门诊 叫号屏 现场",
+    "prefix": "hospital_queue_screen",
+    "size": 264044
+  },
+  {
+    "filename": "clinic_door_screen_1.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\clinic_door_screen_1.jpg",
+    "url": "https://cbu01.alicdn.com/img/ibank/O1CN01cBoVTS1v8DUnu0ecl_!!2214714846127-0-cib.jpg",
+    "query": "医院 诊室门口 显示屏 叫号",
+    "prefix": "clinic_door_screen",
+    "size": 188577
+  },
+  {
+    "filename": "clinic_door_screen_2.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\clinic_door_screen_2.jpg",
+    "url": "https://cbu01.alicdn.com/img/ibank/O1CN01L1emYP1v8DUn4BOWt_!!2214714846127-0-cib.jpg",
+    "query": "医院 诊室门口 显示屏 叫号",
+    "prefix": "clinic_door_screen",
+    "size": 185116
+  },
+  {
+    "filename": "clinic_door_screen_3.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\clinic_door_screen_3.jpg",
+    "url": "https://cbu01.alicdn.com/img/ibank/O1CN014Lqemd1pqkNZl5a22_!!2395635412-0-cib.jpg",
+    "query": "医院 诊室门口 显示屏 叫号",
+    "prefix": "clinic_door_screen",
+    "size": 166668
+  },
+  {
+    "filename": "triage_hall_screen_1.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\triage_hall_screen_1.jpg",
+    "url": "https://www.cdroho.com/public/ueditor/php/upload/96751686106396.jpg",
+    "query": "门诊排队叫号大屏 液晶屏",
+    "prefix": "triage_hall_screen",
+    "size": 264044
+  },
+  {
+    "filename": "triage_hall_screen_2.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\triage_hall_screen_2.jpg",
+    "url": "https://www.feilingcall.cn/resources/upload/ab190a2ce0a6184/1660890840960.png",
+    "query": "门诊排队叫号大屏 液晶屏",
+    "prefix": "triage_hall_screen",
+    "size": 1865566
+  },
+  {
+    "filename": "triage_hall_screen_3.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\triage_hall_screen_3.jpg",
+    "url": "https://www.cdroho.com/public/ueditor/php/upload/15371686106396.jpg",
+    "query": "门诊排队叫号大屏 液晶屏",
+    "prefix": "triage_hall_screen",
+    "size": 267700
+  },
+  {
+    "filename": "infusion_bottle_real_1.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\infusion_bottle_real_1.jpg",
+    "url": "https://img95.699pic.com/photo/50236/9367.jpg_wh860.jpg",
+    "query": "输液瓶 滴液 护士",
+    "prefix": "infusion_bottle_real",
+    "size": 103816
+  },
+  {
+    "filename": "infusion_bottle_real_2.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\infusion_bottle_real_2.jpg",
+    "url": "http://news.sznews.com/pic/2022-01/04/e5a5e29b-2a24-41cb-a940-4d9d5cad5069d355fd95-4345-414b-9b45-97a60160e56d.jpg",
+    "query": "输液瓶 滴液 护士",
+    "prefix": "infusion_bottle_real",
+    "size": 287916
+  },
+  {
+    "filename": "infusion_bottle_real_3.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\infusion_bottle_real_3.jpg",
+    "url": "http://n.sinaimg.cn/translate/20170824/tqkw-fykiuaz0427526.jpg",
+    "query": "输液瓶 滴液 护士",
+    "prefix": "infusion_bottle_real",
+    "size": 19983
+  },
+  {
+    "filename": "infusion_bottle_real_4.jpg",
+    "path": "D:\\Repos\\ding-app\\dataset\\real_world_screens\\infusion_bottle_real_4.jpg",
+    "url": "https://pic.pngsucai.com/00/78/32/efa416f26269fd2d.webp",
+    "query": "输液瓶 滴液 护士",
+    "prefix": "infusion_bottle_real",
+    "size": 35110
+  }
+]

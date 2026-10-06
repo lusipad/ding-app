@@ -1,0 +1,73 @@
+[
+  {
+    "id": "screen_single_clinic_hit",
+    "file": "D:\\Repos\\ding-app\\dataset\\screens\\screen_single_clinic_hit.png",
+    "type": "hospital_screen",
+    "scenario": "single_clinic",
+    "expectedClinic": "3号诊室",
+    "expectedCalling": "128",
+    "targetNumber": "128",
+    "expectedResult": "CONFIRMED_MATCH",
+    "description": "单诊室清晰大屏正在呼叫128号"
+  },
+  {
+    "id": "screen_multi_clinic_isolation",
+    "file": "D:\\Repos\\ding-app\\dataset\\screens\\screen_multi_clinic_isolation.png",
+    "type": "hospital_screen",
+    "scenario": "multi_clinic",
+    "expectedClinic": "3号诊室",
+    "expectedDepartment": "外科门诊",
+    "expectedCalling": "124",
+    "targetNumber": "128",
+    "expectedResult": "WAITING_LIST",
+    "shouldNotMatchClinic1": true,
+    "description": "多科室分屏中1诊室叫128号，用户等3诊室，应严格隔离不产生误报"
+  },
+  {
+    "id": "screen_advance_warning",
+    "file": "D:\\Repos\\ding-app\\dataset\\screens\\screen_advance_warning.png",
+    "type": "hospital_screen",
+    "scenario": "advance_warning",
+    "expectedClinic": "3号诊室",
+    "expectedCalling": "126",
+    "targetNumber": "128",
+    "expectedResult": "PRE_CALL_WARNING",
+    "aheadCount": 1,
+    "description": "当前126号，目标128号在候诊排第2位（前面剩1人，触发提前叫号预警）"
+  },
+  {
+    "id": "screen_explicit_overcall",
+    "file": "D:\\Repos\\ding-app\\dataset\\screens\\screen_explicit_overcall.png",
+    "type": "hospital_screen",
+    "scenario": "explicit_overcall",
+    "expectedClinic": "3号诊室",
+    "expectedCalling": "135",
+    "targetNumber": "128",
+    "expectedResult": "MISSED_CALL",
+    "description": "目标128号明确出现在大屏过号名单栏中"
+  },
+  {
+    "id": "screen_blurry_noisy",
+    "file": "D:\\Repos\\ding-app\\dataset\\screens\\screen_blurry_noisy.png",
+    "type": "hospital_screen",
+    "scenario": "blurry_noise",
+    "expectedResult": "REJECTED_BLURRY",
+    "description": "严重手抖运动模糊，应触发质量过滤拦截"
+  },
+  {
+    "id": "infusion_normal_75",
+    "file": "D:\\Repos\\ding-app\\dataset\\infusion\\infusion_normal_75.png",
+    "type": "infusion_bottle",
+    "liquidPercent": 75,
+    "expectedResult": "SAFE_LEVEL",
+    "description": "输液瓶余量约为 75%，处于安全状态"
+  },
+  {
+    "id": "infusion_low_10",
+    "file": "D:\\Repos\\ding-app\\dataset\\infusion\\infusion_low_10.png",
+    "type": "infusion_bottle",
+    "liquidPercent": 10,
+    "expectedResult": "INFUSION_LOW_LEVEL",
+    "description": "输液瓶余量约为 10%，触发低液位报警"
+  }
+]
