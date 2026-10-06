@@ -1,5 +1,12 @@
 # 帮我看着 (Ding-App) 🏥🔔
 
+[![Android CI](https://github.com/lusipad/ding-app/actions/workflows/ci.yml/badge.svg)](https://github.com/lusipad/ding-app/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/lusipad/ding-app?color=blue&logo=github)](https://github.com/lusipad/ding-app/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![API](https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=26)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple.svg?logo=kotlin)](https://kotlinlang.org)
+[![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
+
 > **让候诊更从容，让看护更省心。**  
 > 一款专为就医候诊、输液陪护打造的现代化**纯本地离线智能视觉看护助手**（Android）。
 
@@ -9,6 +16,29 @@
 
 在拥挤嘈杂的医院候诊区，患者与家属往往不得不时刻紧盯叫号大屏，生怕错过叫号或过号，极度消耗精力且容易焦虑。  
 **「帮我看着」** 旨在解决这一痛点：无需用户全程紧盯，只需在偶视或对准大屏时，利用手机摄像头**全离线、零上传**地自动捕获叫号动态；一旦即将轮到、正在叫号或疑似过号，立刻通过**强力振动、下拉状态栏常驻卡片、桌面拖拽悬浮胶囊**多重通道进行强力提醒。
+
+---
+
+## 📱 界面与实机效果预览
+
+| 🎨 全新极简图标设计 | 🏠 现代 Material 3 首页 | 🪟 桌面悬浮窗实时监控 |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/launcher_icon.png" width="240" alt="桌面图标"/> | <img src="docs/screenshots/home_screen.png" width="240" alt="主界面"/> | <img src="docs/screenshots/desktop_overlay.png" width="240" alt="桌面悬浮胶囊"/> |
+| **取景框 + 金色铃铛**<br>告别惊悚眼睛设计，温暖护航 | **Hero 状态大卡片**<br>分段胶囊与全离线就绪指示 | **系统级半透明胶囊**<br>切回微信/桌面自由拖拽感知 |
+
+| 📬 下拉通知栏动态同步 | ⏳ 提前预警态（金色） | 🚨 命中强提醒态（红色） |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/notification_shade.png" width="240" alt="通知栏动态卡片"/> | <img src="docs/screenshots/dashboard_precall.png" width="240" alt="倒数预警看板"/> | <img src="docs/screenshots/dashboard_hit.png" width="240" alt="命中警报看板"/> |
+| **极简铃铛通知**<br>状态栏无白块，实时显示前方人数 | **倒数预警联动**<br>提前 2~3 人震动提醒起身候诊 | **声振视三合一**<br>红光脉冲闪烁与高优先级触感 |
+
+---
+
+## 📥 快速体验与下载
+
+您可以直接前往 [GitHub Releases](https://github.com/lusipad/ding-app/releases) 页面，下载最新预编译的 `ding-app-v1.0.0.apk` 直接安装到 Android 手机：
+
+- 📦 **最新发布包**：[Ding-App v1.0.0 (GitHub Releases)](https://github.com/lusipad/ding-app/releases/latest)
+- ⚙️ **权限说明**：安装后请根据系统引导授予「相机权限」（用于完全离线捕获大屏画面）及「悬浮窗权限」（用于开启桌面小胶囊实时查看）。
 
 ---
 
